@@ -1,0 +1,29 @@
+{
+    "messages": [
+        {
+            "author": "UserA",
+            "timestamp": "18/06/2020 11:07:14",
+            "body": "This is a very loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong message"
+        },
+        {
+            "author": "UserB",
+            "timestamp": "18/06/2020 15:07:14",
+            "body": "Hey!, whats up? can you talk now"
+        },
+        {
+            "author": "UserC",
+            "timestamp": "18/06/2020 17:07:14",
+            "body": "Guys, we have a deadline to finish!"
+        },
+        {
+            "author": "UserC",
+            "timestamp": "18/06/2020 17:07:14",
+            "body": "This chat has vertical scroll when we have lots and lots of messages, so we can have a fixed height..."
+        },
+        {
+            "author": "UserC",
+            "timestamp": "18/06/2020 17:07:14",
+            "body": "It´s possible to insert html too... can be useful... <strong> strong example </strong>"
+        }
+    ]
+}

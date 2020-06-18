@@ -1,0 +1,40 @@
+.send-message {
+    display: flex;
+    min-height: 10vh;
+    padding: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-between;
+
+    .msg-input {
+        border: 1px solid $green;
+        font-family: "Arial";
+        font-size: 1em;
+        width: 90%;
+        color: black;
+
+        &:focus, &:active {
+            border-color: $darkGreen;
+            outline-color: $darkGreen;
+        }
+    }
+
+    .send-btn {
+        border: none;
+        display: inline-block;
+        padding: 1em 2em;
+        border-radius: 3em;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        font-size: 1em;
+        text-decoration: none;
+        width: auto;
+        font-weight: bold;
+        background: $lightGreen;
+
+        &:hover {
+            cursor: pointer;
+            background: $darkGreen;
+            color: white;
+        }
+    }
+}

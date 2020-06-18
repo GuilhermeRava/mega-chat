@@ -1,0 +1,31 @@
+@import "assets/scss/variables";
+@import "assets/scss/component/buttons";
+@import "assets/scss/component/messages-list";
+@import "assets/scss/component/send-message";
+@import "assets/scss/component/message";
+@import "assets/scss/component/choose-username";
+
+*, *::after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+    width: 100%;
+}
+
+.mega-chat {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    min-height: calc( 100vh - 30px );
+    padding: 0;
+}
+
+.error {
+    color: red;
+}

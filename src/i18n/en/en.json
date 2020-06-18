@@ -1,0 +1,9 @@
+{
+    "sendMessageBtn": "Send",
+    "sendMessagePlaceholder": "Write a message to send...",
+    "chooseUsername": "Write your username to use in the mega-chat app: ",
+    "chooseUsernameBtnText": "Submit",
+    "chooseUsernamePlaceholder": "Write your username...",
+    "chooseUsernameError": "* Username can´t be blank...",
+    "chooseUsernameUser": "Username"
+}

@@ -1,0 +1,60 @@
+.choose-username {
+
+    &-modal {
+        &-wrapper {
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: rgba(black,0.6);
+            z-index: 5;
+            width: 100%;
+            height: 100%;
+        }
+
+        &-body {
+            display: flex;
+            flex-direction: column;
+            background: white;
+            min-height: 100px;
+            min-width: 35%;
+            border-radius: 10px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            padding: 15px;
+
+            &-header {
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            label {
+                margin-top: 15px;
+                margin-bottom: 5px;
+                font-size: 13px;
+            }
+
+            input {
+                padding: 5px;
+                border: 1px solid $green;
+                margin-bottom: 5px;
+
+                &:active, &:focus {
+                    outline-color: $darkGreen;
+                }
+
+            }
+
+            .cta-btn {
+                max-width: 25%;
+                padding: 0.5em 1em;
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        
+    }
+}

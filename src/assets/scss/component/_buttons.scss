@@ -1,0 +1,18 @@
+.cta-btn {
+    border: none;
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    text-decoration: none;
+    width: auto;
+    font-weight: bold;
+    background: $lightGreen;
+
+    &:hover {
+        cursor: pointer;
+        background: $darkGreen;
+        color: white;
+    }
+}

@@ -1,0 +1,7 @@
+.messages-list {
+    min-height: calc( 90vh - 30px );
+    max-height: calc( 90vh - 30px );
+    overflow-y: scroll;
+    border: 1px solid $green;
+    border-radius: 5px;
+}
